@@ -14,7 +14,7 @@ const Navber = () => {
           tabIndex={0}
           className="p-2 mt-3 text-2xl shadow menu menu-sm dropdown-content bg-base-100 rounded-box z-1 w-52">
           <li className="border-0 rounded-md hover:bg-gray-700">
-        <NavLink to="home" className="px-4 py-2">Home</NavLink>
+        <NavLink to="home" className="px-4 py-2">Apps</NavLink>
       </li>
       <li className="rounded-md hover:bg-gray-700">
         <NavLink to="AppDetailsPage" className="px-4 py-2 cursor-pointer">App Details Page</NavLink>
@@ -24,12 +24,15 @@ const Navber = () => {
       </li>
         </ul>
       </div>
-      <a className="text-xl btn btn-ghost">robin</a>
+    <div className='flex'>
+      <img src="https://i.ibb.co.com/ZRfS7zR5/Whats-App-Image-2025-05-04-at-2-32-07-PM.jpg" className='w-10 h-10 rounded-lg'/>
+    <a className="text-xl btn btn-ghost">robin</a>
+    </div>
     </div>
     <div className="hidden navbar-center lg:flex">
     <ul className="px-1 text-white underline bg-gray-900 rounded-lg shadow-md menu menu-horizontal">
       <li className="border-0 rounded-md hover:bg-gray-700">
-        <NavLink to="home" className="px-4 py-2">Home</NavLink>
+        <NavLink to="home" className="px-4 py-2">Apps</NavLink>
       </li>
       <li className="rounded-md hover:bg-gray-700">
         <NavLink to="AppDetailsPage" className="px-4 py-2 cursor-pointer">App Details Page</NavLink>

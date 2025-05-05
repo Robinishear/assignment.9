@@ -8,10 +8,10 @@ const Footer = () => {
                 {/* First Column: Logo and Text */}
                 <div className="flex flex-col items-start">
                     <h3 className="mb-4 text-xl font-bold text-lime-400 animate-pulse">Company Name</h3>
-                    <p className="mb-4 text-sm text-gray-300">
+                    <div className="mb-4 text-sm text-gray-300">
                         
                     <Marquee>Here, you can provide a brief description of  </Marquee> <Marquee> your company.  It can be used to give some </Marquee>  <Marquee> information about your company.</Marquee> 
-                    </p>
+                    </div>
                     <div className="flex mt-4 space-x-4">
                         <a href="#" className="transition duration-300 hover:text-blue-500 hover:scale-110" aria-label="Facebook">
                             <i className="text-xl fab fa-facebook-f"></i>
@@ -94,11 +94,11 @@ const Footer = () => {
                 {/* Fourth Column: Newsletter */}
                 <div>
                     <h3 className="mb-4 text-xl font-bold text-lime-400 animate-pulse">Newsletter</h3>
-                    <p className="mb-4 text-sm text-gray-300">
+                    <div className="mb-4 text-sm text-gray-300">
                     <Marquee>
                         Subscribe to our newsletter and get the latest updates.
                         </Marquee>
-                    </p>
+                    </div>
                     <div className="flex flex-col sm:flex-row">
                         <input
                             type="email"

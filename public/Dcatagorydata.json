@@ -1,0 +1,182 @@
+[
+  {
+    "groupName": "TrendingApps",
+    "apps": [
+      {
+        "id": 1,
+        "name": "Facebook",
+        "description": "Connect with friends and family.",
+        "images": ["https://i.ibb.co.com/tM4PxNGh/images-3.jpg"],
+        "category": "Social",
+        "rating": 4.5,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Facebook, Inc.", "version": "1.0" }
+      },
+      {
+        "id": 2,
+        "name": "Twitter",
+        "description": "See what's happening in the world.",
+        "images": ["https://i.ibb.co.com/qM1k0KBC/photo-1611605698335-8b1569810432.jpg"],
+        "category": "Social",
+        "rating": 4.3,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Twitter, Inc.", "version": "2.0" }
+      },
+      {
+        "id": 3,
+        "name": "Instagram",
+        "description": "Share photos and videos with friends.",
+        "images": ["https://i.ibb.co.com/GvpxZDv9/download.jpg"],
+        "category": "Social",
+        "rating": 4.7,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Instagram, Inc.", "version": "3.0" }
+      },
+      {
+        "id": 4,
+        "name": "YouTube",
+        "description": "Watch videos and listen to music.",
+        "images": ["https://i.ibb.co.com/mCSbNPtJ/photo-1611162616475-46b635cb6868.jpg"],
+        "category": "Entertainment",
+        "rating": 4.6,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Google LLC", "version": "4.0" }
+      }
+    ]
+  },
+  {
+    "groupName": "PreducativityApps",
+    "apps": [
+      {
+        "id": 5,
+        "name": "WhatsApp",
+        "description": "Message and call friends and family.",
+        "images": ["https://i.ibb.co.com/JRXqNJDs/images-4.jpg"],
+        "category": "Communication",
+        "rating": 4.8,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "WhatsApp Inc.", "version": "5.0" }
+      },
+      {
+        "id": 6,
+        "name": "Spotify",
+        "description": "Listen to music and podcasts.",
+        "images": ["https://i.ibb.co.com/kv4sVtD/Spotify-icon-svg.png"],
+        "category": "Music",
+        "rating": 4.4,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Spotify AB", "version": "6.0" }
+      },
+      {
+        "id": 7,
+        "name": "Netflix",
+        "description": "Watch movies and TV shows.",
+        "images": ["https://i.ibb.co.com/gs8Bvg8/photo-1611162617474-5b21e879e113.jpg"],
+        "category": "Entertainment",
+        "rating": 4.5,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Netflix, Inc.", "version": "7.0" }
+      },
+      {
+        "id": 8,
+        "name": "Amazon",
+        "description": "Shop for products online.",
+        "images": ["https://i.ibb.co.com/bpxPXRJ/amazon-apps-logo-png-seeklogo-459165.png"],
+        "category": "Shopping",
+        "rating": 4.3,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Amazon.com, Inc.", "version": "8.0" }
+      }
+    ]
+  },
+  {
+    "groupName": "HealthcareApps",
+    "apps": [
+      {
+        "id": 9,
+        "name": "Gmail",
+        "description": "Send and receive emails.",
+        "images": ["https://i.ibb.co.com/Tx0DFYYL/download.png"],
+        "category": "Communication",
+        "rating": 4.7,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Google LLC", "version": "9.0" }
+      },
+      {
+        "id": 10,
+        "name": "Maps",
+        "description": "Navigate the world.",
+        "images": ["https://i.ibb.co.com/nqQpgRrY/Google-maps-feaure.jpg"],
+        "category": "Travel",
+        "rating": 4.6,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Google LLC", "version": "10.0" }
+      },
+      {
+        "id": 11,
+        "name": "Calculator",
+        "description": "Perform basic calculations.",
+        "images": ["https://i.ibb.co.com/99bVGnRw/images.jpg"],
+        "category": "Utilities",
+        "rating": 4.0,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Operating System", "version": "1.0" }
+      },
+      {
+        "id": 12,
+        "name": "Calendar",
+        "description": "Manage your schedule and appointments.",
+        "images": ["https://i.ibb.co.com/23ztG6hG/download.jpg"],
+        "category": "Productivity",
+        "rating": 4.2,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Operating System", "version": "1.0" }
+      }
+    ]
+  },
+  {
+    "groupName": "EducationalApps",
+    "apps": [
+      {
+        "id": 13,
+        "name": "Camera",
+        "description": "Capture photos and videos.",
+        "images": ["https://i.ibb.co.com/LX9W6dGQ/unnamed-1.png"],
+        "category": "Photography",
+        "rating": 4.4,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Operating System", "version": "1.0" }
+      },
+      {
+        "id": 14,
+        "name": "Clock",
+        "description": "View the current time and set alarms.",
+        "images": ["https://i.ibb.co.com/9H7RrJ8D/images-1.png"],
+        "category": "Utilities",
+        "rating": 4.1,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Operating System", "version": "1.0" }
+      },
+      {
+        "id": 15,
+        "name": "Contacts",
+        "description": "Manage your contacts and phone numbers.",
+        "images": ["https://i.ibb.co.com/wFYz52G4/images.jpg"],
+        "category": "Communication",
+        "rating": 4.3,
+        "installationStatus": "Installed",
+        "otherInfo": { "developer": "Operating System", "version": "1.0" }
+      },
+      {
+        "id": 16,
+        "name": "Docs",
+        "description": "Create, edit, and share documents.",
+        "images": ["https://example.com/docs.png"],
+        "category": "Productivity",
+        "rating": 4.4,
+        "installationStatus": "Not Installed",
+        "otherInfo": { "developer": "Google LLC", "version": "1.0" }
+      }
+    ]
+  }
+]
