@@ -16,36 +16,33 @@ const Navber = () => {
           <li className="border-0 rounded-md hover:bg-gray-700">
         <NavLink to="home" className="px-4 py-2">Apps</NavLink>
       </li>
-      <li className="rounded-md hover:bg-gray-700">
-        <NavLink to="AppDetailsPage" className="px-4 py-2 cursor-pointer">App Details Page</NavLink>
-      </li>
-      <li className="rounded-md hover:bg-gray-700">
-        <NavLink to="login" className="px-4 py-2">Login</NavLink>
-      </li>
         </ul>
       </div>
     <div className='flex'>
       <img src="https://i.ibb.co.com/ZRfS7zR5/Whats-App-Image-2025-05-04-at-2-32-07-PM.jpg" className='w-10 h-10 rounded-lg'/>
-    <a className="text-xl btn btn-ghost">robin</a>
+      <Marquee>
+    <a className="text-xl "> <span className='text-gray-500'>Apps</span>  <span className='text-amber-500'>Home ?</span></a>
+    </Marquee>
     </div>
     </div>
-    <div className="hidden navbar-center lg:flex">
-    <ul className="px-1 text-white underline bg-gray-900 rounded-lg shadow-md menu menu-horizontal">
-      <li className="border-0 rounded-md hover:bg-gray-700">
-        <NavLink to="home" className="px-4 py-2">Apps</NavLink>
-      </li>
-      <li className="rounded-md hover:bg-gray-700">
-        <NavLink to="AppDetailsPage" className="px-4 py-2 cursor-pointer">App Details Page</NavLink>
-      </li>
-      <li className="rounded-md hover:bg-gray-700">
-        <NavLink to="login" className="px-4 py-2">Login</NavLink>
-      </li>
-    </ul>
-    </div>
-    <div className="gap-2 navbar-end">
-      <a className="btn">Button</a>
-      <a className="btn">Button</a>
-    </div>
+
+    
+    <div className="relative flex items-center justify-center w-full px-4 py-2 bg-gray-900">
+  {/* Centered 'Apps' */}
+  <ul className="text-white underline rounded-lg ">
+    <li className="border-0 rounded-md hover:bg-gray-700">
+      <NavLink to="home" className="items-center mx-auto mx-w-7xl">Apps</NavLink>
+    </li>
+  </ul>
+
+  {/* Right-aligned buttons */}
+  <div className="absolute flex gap-2 right-4">
+    <NavLink to="login" className="btn">Login</NavLink>
+    <NavLink to="signin" className="btn">Button</NavLink>
+  </div>
+</div>
+
+   
   </div>
   );
 };

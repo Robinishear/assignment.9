@@ -1,17 +1,10 @@
 import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router";
+import { Link, Navigate } from "react-router";
 
 const Home = () => {
   const [Catagorydata, setCatagorydata] = useState([]);
   
-  const Data = {
-    "TrendingApps": { "app1": { "name": "App One", "type": "Training" } },
-    "PreducativityApps": { "app2": { "name": "Pet App", "type": "Preducativity" } },
-    "HealthcareApps": { "app3": { "name": "Handle King", "type": "Healthcare" } }
   
-  };
-  
-const useData = useLoaderData();
   useEffect(() => {
     fetch('/Dcatagorydata.json')
       .then((res) => res.json())
@@ -19,29 +12,38 @@ const useData = useLoaderData();
       .catch((error) => console.error(error));
   }, []);
 
-   console.log( useData,Data);
-   
-     return (
-      <main className="mx-auto mt-5 space-y-8 max-w-7xl">
-        <h1></h1>
-       <ul>
-        {Catagorydata.map((item, index) => (
-          <>
-          <li key={index}></li>
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                 <div className="p-4 transition-all duration-300 bg-gray-800 border border-gray-700 shadow-lg rounded-xl hover:scale-105 hover:shadow-xl">
-                    <img src={item.images}  class="w-30 mx-auto h-30 object-fill rounded-full mb-4" />
-                     <h3 className="text-lg font-semibold text-white">{item.name}</h3>
-                    <p className="text-sm text-gray-400">Pemutar & Editor Video</p>
-                     <p className="text-sm text-yellow-400">Rating: 4.3 ★</p>
-               </div>
-           </div>
-           </>
-        ))}
-      </ul>
-
+   console.log();
+ 
+   return (
+    <main className="mx-auto mt-5 space-y-8 max-w-7xl">
+    {Catagorydata.map((category, index) => (
+      <div key={index}>
+        <h1 className="mb-4 text-2xl font-bold text-black">{category.category}</h1>
+  
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          
+            <Link
+              to={`/app-details/${category.category}/${category.id}`}
+              key={category.id}
+              className="p-4 transition-all duration-300 bg-gray-800 border border-gray-700 shadow-lg rounded-xl hover:scale-105 hover:shadow-xl"
+            >
+              <img
+                src={category.thumbnail}
+                alt={category.name}
+                className="object-fill mx-auto mb-4 rounded-full w-30 h-30"
+              />
+              <h3 className="text-lg font-semibold text-white">{category.name}</h3>
+              <p className="text-sm text-gray-400">{category.developer}</p>
+              <p className="text-sm text-yellow-400">Rating: {category.rating} ★★★★</p>
+            </Link>
+        
+        </div>
+      </div>
+    ))}
   </main>
+  
+  
   );
-};
+}
 
 export default Home;

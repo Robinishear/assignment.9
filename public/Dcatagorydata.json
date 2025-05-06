@@ -1,182 +1,242 @@
 [
   {
-    "groupName": "TrendingApps",
-    "apps": [
-      {
-        "id": 1,
-        "name": "Facebook",
-        "description": "Connect with friends and family.",
-        "images": ["https://i.ibb.co.com/tM4PxNGh/images-3.jpg"],
-        "category": "Social",
-        "rating": 4.5,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Facebook, Inc.", "version": "1.0" }
-      },
-      {
-        "id": 2,
-        "name": "Twitter",
-        "description": "See what's happening in the world.",
-        "images": ["https://i.ibb.co.com/qM1k0KBC/photo-1611605698335-8b1569810432.jpg"],
-        "category": "Social",
-        "rating": 4.3,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Twitter, Inc.", "version": "2.0" }
-      },
-      {
-        "id": 3,
-        "name": "Instagram",
-        "description": "Share photos and videos with friends.",
-        "images": ["https://i.ibb.co.com/GvpxZDv9/download.jpg"],
-        "category": "Social",
-        "rating": 4.7,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Instagram, Inc.", "version": "3.0" }
-      },
-      {
-        "id": 4,
-        "name": "YouTube",
-        "description": "Watch videos and listen to music.",
-        "images": ["https://i.ibb.co.com/mCSbNPtJ/photo-1611162616475-46b635cb6868.jpg"],
-        "category": "Entertainment",
-        "rating": 4.6,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Google LLC", "version": "4.0" }
-      }
+    "id": "app001",
+    "name": "Programming Hero",
+    "developer": "Programming Hero Ltd.",
+    "thumbnail": "https://i.ibb.co.com/YF5jpLFF/Screenshot-289.png",
+    "banner": "https://i.ibb.co/6r0M8Vh/fitbuddy-banner.jpg",
+    "downloads": 3500000,
+    "category": "Education",
+    "rating": 4.8,
+    "description": "Programming Hero is a fun and interactive way to learn programming.",
+    "features": ["Interactive coding lessons", "Real-world projects", "Gamified learning experience"],
+    "reviews": [
+      { "user": "coder_nadia", "rating": 5, "comment": "Best app for beginners!" }
     ]
   },
   {
-    "groupName": "PreducativityApps",
-    "apps": [
-      {
-        "id": 5,
-        "name": "WhatsApp",
-        "description": "Message and call friends and family.",
-        "images": ["https://i.ibb.co.com/JRXqNJDs/images-4.jpg"],
-        "category": "Communication",
-        "rating": 4.8,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "WhatsApp Inc.", "version": "5.0" }
-      },
-      {
-        "id": 6,
-        "name": "Spotify",
-        "description": "Listen to music and podcasts.",
-        "images": ["https://i.ibb.co.com/kv4sVtD/Spotify-icon-svg.png"],
-        "category": "Music",
-        "rating": 4.4,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Spotify AB", "version": "6.0" }
-      },
-      {
-        "id": 7,
-        "name": "Netflix",
-        "description": "Watch movies and TV shows.",
-        "images": ["https://i.ibb.co.com/gs8Bvg8/photo-1611162617474-5b21e879e113.jpg"],
-        "category": "Entertainment",
-        "rating": 4.5,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Netflix, Inc.", "version": "7.0" }
-      },
-      {
-        "id": 8,
-        "name": "Amazon",
-        "description": "Shop for products online.",
-        "images": ["https://i.ibb.co.com/bpxPXRJ/amazon-apps-logo-png-seeklogo-459165.png"],
-        "category": "Shopping",
-        "rating": 4.3,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Amazon.com, Inc.", "version": "8.0" }
-      }
+    "id": "app002",
+    "name": "FitBuddy",
+    "developer": "ActivePulse Inc.",
+    "thumbnail": "https://i.ibb.co/yW5ZWt5/fitbuddy-thumb.jpg",
+    "banner": "https://i.ibb.co/6r0M8Vh/fitbuddy-banner.jpg",
+    "downloads": 2500000,
+    "category": "Health & Fitness",
+    "rating": 4.6,
+    "description": "Your personal fitness assistant.",
+    "features": ["Custom workouts", "Nutrition tracking", "Progress tracking"],
+    "reviews": [
+      { "user": "fit_freak", "rating": 4, "comment": "Helps me stay on track." }
     ]
   },
   {
-    "groupName": "HealthcareApps",
-    "apps": [
-      {
-        "id": 9,
-        "name": "Gmail",
-        "description": "Send and receive emails.",
-        "images": ["https://i.ibb.co.com/Tx0DFYYL/download.png"],
-        "category": "Communication",
-        "rating": 4.7,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Google LLC", "version": "9.0" }
-      },
-      {
-        "id": 10,
-        "name": "Maps",
-        "description": "Navigate the world.",
-        "images": ["https://i.ibb.co.com/nqQpgRrY/Google-maps-feaure.jpg"],
-        "category": "Travel",
-        "rating": 4.6,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Google LLC", "version": "10.0" }
-      },
-      {
-        "id": 11,
-        "name": "Calculator",
-        "description": "Perform basic calculations.",
-        "images": ["https://i.ibb.co.com/99bVGnRw/images.jpg"],
-        "category": "Utilities",
-        "rating": 4.0,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Operating System", "version": "1.0" }
-      },
-      {
-        "id": 12,
-        "name": "Calendar",
-        "description": "Manage your schedule and appointments.",
-        "images": ["https://i.ibb.co.com/23ztG6hG/download.jpg"],
-        "category": "Productivity",
-        "rating": 4.2,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Operating System", "version": "1.0" }
-      }
+    "id": "app003",
+    "name": "TravelMate",
+    "developer": "GlobeTrek Ltd.",
+    "thumbnail": "https://i.ibb.co/g39YhXr/travelmate-thumb.jpg",
+    "banner": "https://i.ibb.co/TkVcjXZ/travelmate-banner.jpg",
+    "downloads": 1800000,
+    "category": "Travel",
+    "rating": 4.5,
+    "description": "Plan and enjoy your trips easily.",
+    "features": ["Flight booking", "Itinerary planner", "Weather tools"],
+    "reviews": [
+      { "user": "globetrotter007", "rating": 5, "comment": "Super helpful app!" }
     ]
   },
   {
-    "groupName": "EducationalApps",
-    "apps": [
-      {
-        "id": 13,
-        "name": "Camera",
-        "description": "Capture photos and videos.",
-        "images": ["https://i.ibb.co.com/LX9W6dGQ/unnamed-1.png"],
-        "category": "Photography",
-        "rating": 4.4,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Operating System", "version": "1.0" }
-      },
-      {
-        "id": 14,
-        "name": "Clock",
-        "description": "View the current time and set alarms.",
-        "images": ["https://i.ibb.co.com/9H7RrJ8D/images-1.png"],
-        "category": "Utilities",
-        "rating": 4.1,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Operating System", "version": "1.0" }
-      },
-      {
-        "id": 15,
-        "name": "Contacts",
-        "description": "Manage your contacts and phone numbers.",
-        "images": ["https://i.ibb.co.com/wFYz52G4/images.jpg"],
-        "category": "Communication",
-        "rating": 4.3,
-        "installationStatus": "Installed",
-        "otherInfo": { "developer": "Operating System", "version": "1.0" }
-      },
-      {
-        "id": 16,
-        "name": "Docs",
-        "description": "Create, edit, and share documents.",
-        "images": ["https://example.com/docs.png"],
-        "category": "Productivity",
-        "rating": 4.4,
-        "installationStatus": "Not Installed",
-        "otherInfo": { "developer": "Google LLC", "version": "1.0" }
-      }
+    "id": "app004",
+    "name": "BudgetBee",
+    "developer": "SmartFinance Co.",
+    "thumbnail": "https://i.ibb.co/8m1Jv9L/budgetbee-thumb.jpg",
+    "banner": "https://i.ibb.co/fSkxCNk/budgetbee-banner.jpg",
+    "downloads": 2200000,
+    "category": "Finance",
+    "rating": 4.7,
+    "description": "Track expenses and save better.",
+    "features": ["Expense categories", "Budget alerts", "Savings goals"],
+    "reviews": [
+      { "user": "money_minded", "rating": 4, "comment": "Great budgeting tool!" }
+    ]
+  },
+  {
+    "id": "app005",
+    "name": "MindZen",
+    "developer": "CalmCore Studios",
+    "thumbnail": "https://i.ibb.co/2YQz1mV/mindzen-thumb.jpg",
+    "banner": "https://i.ibb.co/VxSzs3p/mindzen-banner.jpg",
+    "downloads": 3100000,
+    "category": "Health & Fitness",
+    "rating": 4.9,
+    "description": "Relax and recharge with meditation.",
+    "features": ["Guided meditation", "Sleep sounds", "Stress relief"],
+    "reviews": [
+      { "user": "relaxed_ravi", "rating": 5, "comment": "Helps me sleep well!" }
+    ]
+  },
+  {
+    "id": "app006",
+    "name": "NoteNest",
+    "developer": "ClearDesk Inc.",
+    "thumbnail": "https://i.ibb.co/tsHGc7T/notenest-thumb.jpg",
+    "banner": "https://i.ibb.co/Y2ZJtRQ/notenest-banner.jpg",
+    "downloads": 500000,
+    "category": "Productivity",
+    "rating": 4.2,
+    "description": "Take notes easily, anywhere.",
+    "features": ["Markdown", "Cloud sync", "Reminders"],
+    "reviews": [
+      { "user": "jotmaster", "rating": 4, "comment": "Simple and useful." }
+    ]
+  },
+  {
+    "id": "app007",
+    "name": "SnapTutor",
+    "developer": "LearnFast Ltd.",
+    "thumbnail": "https://i.ibb.co/KyxMNRY/snaptutor-thumb.jpg",
+    "banner": "https://i.ibb.co/wN5qbnc/snaptutor-banner.jpg",
+    "downloads": 1900000,
+    "category": "Education",
+    "rating": 4.4,
+    "description": "Homework help by snapping a photo.",
+    "features": ["Photo to answer", "Expert help", "Step-by-step"],
+    "reviews": [
+      { "user": "mathgenius92", "rating": 5, "comment": "Lifesaver app!" }
+    ]
+  },
+  {
+    "id": "app008",
+    "name": "TuneTrek",
+    "developer": "AudioFly Inc.",
+    "thumbnail": "https://i.ibb.co/QDcHdVG/tunetrek-thumb.jpg",
+    "banner": "https://i.ibb.co/zfGxzXr/tunetrek-banner.jpg",
+    "downloads": 4300000,
+    "category": "Music",
+    "rating": 4.8,
+    "description": "Discover and share music socially.",
+    "features": ["Music recommendations", "Offline play", "Social sharing"],
+    "reviews": [
+      { "user": "beat_hunter", "rating": 5, "comment": "Love the playlists!" }
+    ]
+  },
+  {
+    "id": "app009",
+    "name": "QuickRecipe",
+    "developer": "FoodCraft Ltd.",
+    "thumbnail": "https://i.ibb.co/nknbKx6/quickrecipe-thumb.jpg",
+    "banner": "https://i.ibb.co/wMBkZnT/quickrecipe-banner.jpg",
+    "downloads": 1600000,
+    "category": "Food & Drink",
+    "rating": 4.3,
+    "description": "Fast and easy cooking recipes.",
+    "features": ["Step guides", "Video recipes", "Smart search"],
+    "reviews": [
+      { "user": "chef_anya", "rating": 4, "comment": "Very helpful in kitchen!" }
+    ]
+  },
+  {
+    "id": "app010",
+    "name": "EcoTrack",
+    "developer": "GreenFuture Tech",
+    "thumbnail": "https://i.ibb.co/tYcCnFJ/ecotrack-thumb.jpg",
+    "banner": "https://i.ibb.co/jZ2jK2X/ecotrack-banner.jpg",
+    "downloads": 900000,
+    "category": "Lifestyle",
+    "rating": 4.6,
+    "description": "Track your carbon footprint.",
+    "features": ["Eco tips", "Sustainability goals", "Carbon calculator"],
+    "reviews": [
+      { "user": "eco_warrior", "rating": 5, "comment": "Great for climate awareness!" }
+    ]
+  },
+  {
+    "id": "app011",
+    "name": "LangLeap",
+    "developer": "LingoSoft",
+    "thumbnail": "https://i.ibb.co/WtPvq0d/langleap-thumb.jpg",
+    "banner": "https://i.ibb.co/syRdZrf/langleap-banner.jpg",
+    "downloads": 2750000,
+    "category": "Education",
+    "rating": 4.5,
+    "description": "Learn languages with short stories and quizzes.",
+    "features": ["Interactive dialogues", "Grammar games", "Daily goals"],
+    "reviews": [
+      { "user": "polyglot101", "rating": 5, "comment": "Fun and addictive!" }
+    ]
+  },
+  {
+    "id": "app012",
+    "name": "PixCraft",
+    "developer": "DesignNest",
+    "thumbnail": "https://i.ibb.co/fqVL6GH/pixcraft-thumb.jpg",
+    "banner": "https://i.ibb.co/Q8gGnN4/pixcraft-banner.jpg",
+    "downloads": 1400000,
+    "category": "Art & Design",
+    "rating": 4.3,
+    "description": "Photo editing made creative and easy.",
+    "features": ["Filters & effects", "Layer tools", "Drawing pad"],
+    "reviews": [
+      { "user": "artlover", "rating": 4, "comment": "Great for quick edits." }
+    ]
+  },
+  {
+    "id": "app013",
+    "name": "GameHive",
+    "developer": "PlayZone Inc.",
+    "thumbnail": "https://i.ibb.co/2WJytY5/gamehive-thumb.jpg",
+    "banner": "https://i.ibb.co/YZ3GkJ3/gamehive-banner.jpg",
+    "downloads": 4800000,
+    "category": "Games",
+    "rating": 4.9,
+    "description": "A collection of trending mini-games in one place.",
+    "features": ["Multiplayer", "Daily challenges", "Leaderboard"],
+    "reviews": [
+      { "user": "gamerx", "rating": 5, "comment": "Endless fun!" }
+    ]
+  },
+  {
+    "id": "app014",
+    "name": "VoiceBox",
+    "developer": "AudioTools Ltd.",
+    "thumbnail": "https://i.ibb.co/xSMHfWc/voicebox-thumb.jpg",
+    "banner": "https://i.ibb.co/4MW5j5R/voicebox-banner.jpg",
+    "downloads": 1000000,
+    "category": "Utilities",
+    "rating": 4.2,
+    "description": "Record, edit, and enhance audio quickly.",
+    "features": ["Noise filter", "Voice changer", "Multi-track support"],
+    "reviews": [
+      { "user": "podcaster", "rating": 4, "comment": "Great for recording on the go!" }
+    ]
+  },
+  {
+    "id": "app015",
+    "name": "PetLog",
+    "developer": "VetTrack",
+    "thumbnail": "https://i.ibb.co/q1fbPbp/petlog-thumb.jpg",
+    "banner": "https://i.ibb.co/GMXk2GV/petlog-banner.jpg",
+    "downloads": 800000,
+    "category": "Lifestyle",
+    "rating": 4.4,
+    "description": "Track your pet's health and schedule.",
+    "features": ["Vaccine reminders", "Food log", "Vet visits"],
+    "reviews": [
+      { "user": "petparent", "rating": 5, "comment": "Helps me take care of my dog!" }
+    ]
+  },
+  {
+    "id": "app016",
+    "name": "ReadHive",
+    "developer": "BookSpace Inc.",
+    "thumbnail": "https://i.ibb.co/B3LM2Nk/readhive-thumb.jpg",
+    "banner": "https://i.ibb.co/tZDfMnv/readhive-banner.jpg",
+    "downloads": 2900000,
+    "category": "Books",
+    "rating": 4.7,
+    "description": "Discover and read books tailored to your taste.",
+    "features": ["Smart recommendations", "Offline reading", "Highlight & notes"],
+    "reviews": [
+      { "user": "bookworm88", "rating": 5, "comment": "Best reading app ever!" }
     ]
   }
 ]
