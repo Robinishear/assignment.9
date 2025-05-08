@@ -20,9 +20,7 @@ const ErrorPage = () => {
                     alt="Error 404: Page Not Found"
                     className="w-[400px] mt-6 rounded-lg  shadow-lg" 
                 />
-                <h1 className="flex justify-center font-extrabold text-center text-transparent text-8xl bg-gradient-to-r from-pink-500 via-purple-900 to-indigo-100 bg-clip-text">
-  4<span className="animate-bounc"> <img src="https://i.ibb.co.com/4wDHJ9Sf/3e2cfee2eb4ed31f4325598ee53ece71.gif" className='object-cover rounded-full w-19 h-19' /> </span>4
-</h1>
+                
 
 </label>
               

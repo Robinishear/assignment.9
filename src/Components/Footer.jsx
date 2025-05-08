@@ -3,7 +3,8 @@ import Marquee from 'react-fast-marquee';
 
 const Footer = () => {
     return (
-        <footer className="px-4 py-8 mx-auto mt-10 text-white bg-gray-900 max-w-7xl rounded-2xl">
+        <div className='py-5 bg-black'>
+        <footer className="px-4 py-8 mx-auto mt-1 text-white bg-gray-900 max-w-7xl rounded-2xl">
             <div className="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-2 lg:grid-cols-4">
                 {/* First Column: Logo and Text */}
                 <div className="flex flex-col items-start">
@@ -130,12 +131,13 @@ const Footer = () => {
                 }
 
                 @keyframes pulse {
-                  0% { transform: scale(8.8); }
-                  70% { transform: scale(1.15); }
-                  200% { transform: scale(1.8); }
+                  0% { transform: scale(1.8); }
+                  70% { transform: scale(1.5); }
+                  200% { transform: scale(1.5); }
                 }
             `}</style>
         </footer>
+        </div>
     );
 };
 

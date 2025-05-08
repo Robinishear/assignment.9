@@ -15,13 +15,12 @@ const Home = () => {
    console.log();
  
    return (
-    <main className="mx-auto mt-5 space-y-8 max-w-7xl">
+    
+    <div className="bg-black">
+    <main className="grid w-full grid-cols-4 gap-6 mx-auto max-w-7xl ">
     {Catagorydata.map((category, index) => (
-      <div key={index}>
-        <h1 className="mb-4 text-2xl font-bold text-black">{category.category}</h1>
-  
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          
+      <div className="flex flex-col max-w-xl p-8 mt-8 bg-gray-800 divide-y rounded-md shadow-sm text-gray-50" key={index}>
+        <h1 className="mb-4 text-2xl font-bold ">{category.category}</h1>
             <Link
               to={`/app-details/${category.category}/${category.id}`}
               key={category.id}
@@ -34,14 +33,14 @@ const Home = () => {
               />
               <h3 className="text-lg font-semibold text-white">{category.name}</h3>
               <p className="text-sm text-gray-400">{category.developer}</p>
+              <p className="text-sm text-gray-400">{category.viue}</p>
+              <p className="text-sm text-gray-400">{category.downloads}</p>
               <p className="text-sm text-yellow-400">Rating: {category.rating} ★★★★</p>
             </Link>
-        
         </div>
-      </div>
     ))}
   </main>
-  
+  </div>
   
   );
 }
